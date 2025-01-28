@@ -1,0 +1,669 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #ffffcc;
+    color: #330000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cont{
+    width: 80%;
+    height: auto;
+    background-color: #ffffcc;
+    border: 5px solid #964B00;
+    margin: 10% auto;
+}
+
+#logo, footer {
+    width: 100%;
+    height: 60px;
+    border-bottom: 3px solid #964B00;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #ccaa66;
+}
+
+#logo h1{
+    position: relative;
+    top: -5px;
+}
+
+footer {
+    
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    border-top: 3px solid #964B00;
+    border-bottom: 0; 
+    padding-bottom: 20px;
+}
+
+nav {
+    width: 20%;
+    height: 435px;
+    background-color: #E8D882;
+    position: relative;
+    padding: 50px;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    color: #330000;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 40px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: #964B00;
+}
+
+
+#content img{
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin: 85px 15px 10px 20px;
+}
+
+#content p {
+    font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+    left: 30px;;
+}
+
+#content ul {
+    margin-top: 10px;
+    position: relative;
+    left: 80px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#content p, ul {
+    position: relative;
+    top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #330000;
+    padding-top: 3px;
+}
+
+.section {
+    display: none;
+}
+
+:target {
+    display: block;
+}
+
+#menu h2 {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+#menu p {
+    position: relative;
+    top: 90px;
+    left: 30px;
+}
+
+#menu ul {
+    position: relative;
+    top: 130px;
+    left: 30px;
+    font-size: 16px;
+    list-style: none;
+}
+
+#music ul {
+    list-style: none;
+    left: 27px;
+    margin-top: 40px;
+}
+
+#music p {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    width: 700px;
+}
+
+#jobs h3 {
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #cont{
+        width: 80%;
+        height: auto;
+        background-color: #ffffcc;
+        border: 5px solid #964B00;
+        margin: 10% auto;
+    }
+    
+    #colleft {
+        width: 10%;
+        height: auto;
+        background-color: #E8D882;
+        position: relative;
+        padding: 40px 45px 5px 40px;
+        float: left;
+    }
+
+    #colleft a {
+        font-size: 10px;
+        position: relative;
+        top: 10px;
+        left: -10px;
+    }
+
+    #content p {
+        font-size: 10px;
+        margin-top: -2px;
+        position: relative;
+        left: 20px;
+        line-height: 15px;
+    }
+
+    #text {
+        font-size: 8px;
+    }
+
+    #content ul {
+        margin-top: -2px;
+        position: relative;
+        left: 30px;
+        font-size: 8px;
+        margin-bottom: 20px;
+    }
+
+    #content img{
+        height: 100px;
+        width: 100px;
+        float: right;
+        margin: 125px 15px 10px 20px;
+    }
+
+    #cont {
+        margin: 200px auto;
+    }
+
+    #menu h2 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    #menu p {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    #menu ul {
+        position: relative;
+        top: 85px;
+        left: 15px;
+        font-size: 10px;
+        list-style: none;
+        line-height: 15px;
+        font-size: 10px;
+        width: 350px;
+    }
+
+    #music ul {
+        list-style: none;
+        left: 20px;
+    }
+
+    #music img {
+        height: 100px;
+        width: 100px;
+        float: right;
+        margin: 145px 15px 10px 20px;
+    }
+
+    #music p {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 10px;
+        width: 390px;
+    }
+
+    #jobs h3 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    
+    #cont{
+        width: 80%;
+        height: auto;
+        background-color: #ffffcc;
+        border: 5px solid #964B00;
+        margin: 10% auto;
+    }
+    
+    #colleft {
+        width: 10%;
+        height: auto;
+        background-color: #E8D882;
+        position: relative;
+        padding: 40px 45px 5px 40px;
+        float: left;
+    }
+
+    #colleft a {
+        font-size: 10px;
+        position: relative;
+        top: 10px;
+        left: -10px;
+    }
+
+    #content p {
+        font-size: 10px;
+        margin-top: -2px;
+        position: relative;
+        left: 20px;
+        line-height: 15px;
+    }
+
+    #text {
+        font-size: 12px;
+    }
+
+    #content ul {
+        margin-top: -2px;
+        position: relative;
+        left: 30px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    #content img{
+        height: 120px;
+        width: 120px;
+        float: right;
+        margin: 110px 15px 10px 20px;
+    }
+
+    #cont {
+        margin: 200px auto;
+    }
+
+    #menu h2 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    #menu p {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    #menu ul {
+        position: relative;
+        top: 85px;
+        left: 15px;
+        font-size: 10px;
+        list-style: none;
+        line-height: 15px;
+        font-size: 10px;
+        width: 350px;
+    }
+
+    #music ul {
+        list-style: none;
+        left: 20px;
+    }
+
+    #music img {
+        height: 130px;
+        width: 130px;
+        float: right;
+        margin: 115px 15px 10px 20px;
+    }
+
+    #music p {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 10px;
+        width: 360px;
+    }
+
+    #jobs h3 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    
+    #colleft {
+        width: 13%;
+    }
+
+    #colleft a {
+        font-size: 15px;
+    }
+
+    #content p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #text {
+        font-size: 15px;
+    }
+
+    #content ul {
+        margin-top: -2px;
+        position: relative;
+        left: 30px;
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    #content img{
+        height: 170px;
+        width: 170px;
+        float: right;
+        margin: 80px 15px 10px 20px;
+    }
+
+    #menu h2 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    #menu p {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    #menu ul {
+        position: relative;
+        top: 85px;
+        left: 15px;
+        font-size: 10px;
+        list-style: none;
+        line-height: 15px;
+        font-size: 13px;
+        width: 350px;
+    }
+
+    #music img {
+        height: 170px;
+        width: 170px;
+        float: right;
+        margin: 85px 15px 10px 20px;
+    }
+
+    #music p {
+        position: relative;
+        top: 35px;
+        left: 30px;
+        font-size: 13px;
+        width: 470px;
+    }
+
+    #jobs h3 {
+        font-size: 15px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+    
+    #colleft {
+        width: 13%;
+    }
+
+    #colleft a {
+        font-size: 15px;
+    }
+
+    #content p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #text {
+        font-size: 15px;
+    }
+
+    #content ul {
+        margin-top: -2px;
+        position: relative;
+        left: 30px;
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+
+    #content img{
+        height: 170px;
+        width: 170px;
+        float: right;
+        margin: 80px 15px 10px 20px;
+    }
+
+    #menu h2 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    #menu p {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    #menu ul {
+        position: relative;
+        top: 85px;
+        left: 15px;
+        font-size: 10px;
+        list-style: none;
+        line-height: 15px;
+        font-size: 13px;
+        width: 350px;
+    }
+
+    #music img {
+        height: 170px;
+        width: 170px;
+        float: right;
+        margin: 85px 15px 10px 20px;
+    }
+
+    #music p {
+        position: relative;
+        top: 35px;
+        left: 30px;
+        font-size: 13px;
+        width: 470px;
+    }
+
+    #jobs h3 {
+        font-size: 15px;
+    }
+
+    footer a {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 30px;
+        margin-top: 3px;
+    }
+    
+    #colleft {
+        width: 13%;
+    }
+
+    #colleft a {
+        font-size: 16px;
+        left: 2px;
+    }
+
+    #content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #text {
+        font-size: 15px;
+    }
+
+    #content ul {
+        margin-top: -2px;
+        position: relative;
+        left: 30px;
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+
+    #content img{
+        height: 200px;
+        width: 200px;
+        float: right;
+        margin: 45px 15px 10px 20px;
+    }
+
+    #menu h2 {
+        position: relative;
+        top: 35px;
+        left: 20px;
+        font-size: 20px;
+    }
+
+    #menu p {
+        position: relative;
+        top: 60px;
+        left: 20px;
+        font-size: 18px;
+    }
+
+    #menu ul {
+        position: relative;
+        top: 85px;
+        left: 15px;
+        font-size: 10px;
+        list-style: none;
+        line-height: 15px;
+        font-size: 15px;
+        width: 450px;
+    }
+
+    #music img {
+        height: 200px;
+        width: 200px;
+        float: right;
+        margin: 55px 15px 10px 20px;
+    }
+
+    #music p {
+        position: relative;
+        top: 35px;
+        left: 30px;
+        font-size: 15px;
+        width: 470px;
+    }
+
+    #jobs h3 {
+        font-size: 14px;
+    }
+
+    footer a {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+}
